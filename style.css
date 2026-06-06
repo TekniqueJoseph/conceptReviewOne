@@ -8,3 +8,10 @@ img{
 th, td{
     padding: 10px;
 }
+
+form {
+    padding: 5px 10px;
+    width: 15vw;
+    border: 1px solid black;
+    /* background-color: aquamarine; */
+}
