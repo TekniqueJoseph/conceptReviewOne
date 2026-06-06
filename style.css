@@ -5,3 +5,6 @@ img{
     width: 400px;
     height: 250px;
 }
+th, td{
+    padding: 10px;
+}
