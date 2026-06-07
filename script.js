@@ -1,4 +1,2 @@
-document.querySelectorAll('.headerCenter').forEach(item => {
-    item.style.textAlign = 'center' 
-})
-
+document.querySelector('.headerCenter').style.textAlign = 'center'
+ 
