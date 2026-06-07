@@ -11,7 +11,7 @@
     <header id="contact">
         <h1>Tell Us About Yourself</h1>
     </header>
-    <div style= "background-color: salmon; padding: 16px;" >
+    <div style= "background-color: salmon; padding: 16px; text-align: ;" >
         <form action="" method="post">
             Create User Name: <br>
             <input type="text" name="username" placeholder="Enter Your User Name"> <br><br>
@@ -22,10 +22,10 @@
             Enter Your Email: <br>
             <input type="email" name="email" placeholder="Enter Your Email"><br><br>
             Select Your Gender <br>
-            Male <input type="radio" name="gender" checked>
-            Female <input type="radio" name="gender">
-            Other <input type="radio" name="gender"><br><br>
-            Time To Contact: <br>
+            Male<input type="radio" name="gender" checked>
+            Female<input type="radio" name="gender">
+            Other<input type="radio" name="gender"><br><br>
+            Best Time To Contact: <br>
             AM<input type="checkbox" name="contactTime">
             PM<input type="checkbox" name="contactTime"><br><br>
             What Is Your Preferred Essential Oil:
@@ -38,7 +38,11 @@
             </select><br><br>
 
             Please Tell Us You Goals: <br>
-            <br><br><input type="submit">
+            <textarea name="userGoals" rows="5" cols="35" placeholder="What Do You Aspire?"></textarea>
+            <br><br>
+            <div style="text-align: center;">
+                <input type="submit">
+            </div>
         </form>
     </div>
 
