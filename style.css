@@ -10,8 +10,9 @@ th, td{
 }
 
 form {
-    padding: 5px 10px;
-    width: 15vw;
+    padding: 16px;
+    width: 300px;
     border: 1px solid black;
-    /* background-color: aquamarine; */
+    margin: 0 auto;
+    background-color: rgb(181, 226, 217);
 }
