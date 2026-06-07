@@ -12,8 +12,17 @@ th, td{
 form {
     padding: 16px;
     width: 300px;
-    /* border: 1px solid black; */
     border-radius: 1.5%;
     margin: 0 auto;
     background-color: rgb(181, 226, 217);
+}
+
+.btn {
+    width: 100px; 
+    height: 25px;
+    border-radius: 40px; 
+    border: none; 
+    background-color:salmon; 
+    color: whitesmoke; 
+    font-weight: 700;
 }
