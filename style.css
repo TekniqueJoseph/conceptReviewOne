@@ -12,7 +12,8 @@ th, td{
 form {
     padding: 16px;
     width: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 1.5%;
     margin: 0 auto;
     background-color: rgb(181, 226, 217);
 }
