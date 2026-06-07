@@ -8,15 +8,13 @@ img{
 th, td{
     padding: 10px;
 }
-
 form {
     padding: 16px;
     width: 300px;
-    border-radius: 1.5%;
+    border-radius: 2.5%;
     margin: 0 auto;
     background-color: rgb(181, 226, 217);
 }
-
 .btn {
     width: 100px; 
     height: 25px;
