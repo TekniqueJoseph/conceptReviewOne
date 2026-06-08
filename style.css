@@ -24,3 +24,10 @@ form {
     color: whitesmoke; 
     font-weight: 700;
 }
+section > h2{
+    text-align: center;
+}
+
+h2 + .blogInfo{
+    text-align: center;
+}
