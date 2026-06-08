@@ -31,3 +31,6 @@ section > h2{
 h2 + .blogInfo{
     text-align: center;
 }
+p[lang]{
+    text-decoration: underline;
+}
