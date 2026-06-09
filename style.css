@@ -34,3 +34,15 @@ h2 + .blogInfo{
 p[lang]{
     text-decoration: underline;
 }
+#visual{
+    text-align: center;
+}
+#herb{
+    height: 30vh;
+    width: 25vw;
+}
+#healingProps ~ p{
+    width: 50vw;
+    margin: 0 auto;
+    font-style: italic;
+}
