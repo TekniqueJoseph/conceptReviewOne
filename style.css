@@ -52,5 +52,8 @@ p[lang]{
 #footer{
     background-color: salmon;
     text-align: center;  
+    /* padding: 2px 0 8px; */
 }
-
+#footer p{
+    margin: 2px 0;
+}
