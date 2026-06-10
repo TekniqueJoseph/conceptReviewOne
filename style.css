@@ -51,7 +51,7 @@ p[lang]{
 }
 #footer{
     background-color: salmon;
-    height: 76px;
+    /* height: 76px; */
     text-align: center;
 
     /* position: absolute; */
@@ -61,5 +61,5 @@ p[lang]{
 }
 
 #footer > p{
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
