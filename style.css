@@ -44,6 +44,11 @@ h2 + .blogInfo{
 p[lang]{
     text-decoration: underline;
 }
+.podImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
 #visual{
     text-align: center;
 }
