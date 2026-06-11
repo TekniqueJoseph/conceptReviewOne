@@ -45,9 +45,13 @@ p[lang]{
     text-decoration: underline;
 }
 .podImg{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    margin-bottom: 8px;
+}
+#podSection h2{
+    margin-bottom: 8px;
 }
 #visual{
     text-align: center;
