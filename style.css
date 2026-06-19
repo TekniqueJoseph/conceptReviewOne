@@ -90,8 +90,18 @@ form {
 }
 /* Footer */
 #footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 12px 0px ;
+    margin: 0 auto;
     background-color: salmon;
     text-align: center;  
     /* padding: 2px 0 8px; */
+}
+
+footer h3, p{
+    margin: 2px;
 }
 
