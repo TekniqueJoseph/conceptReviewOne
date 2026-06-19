@@ -7,8 +7,28 @@ ul{
     margin-left: 0;
 }
 ul a{
+    display: block;
     text-decoration: none;
+    width: 84px;
+    padding: 8px;
+    /* height: 48px; */
 }
+
+li {
+ display: inline-block;
+}
+
+ul:hover{
+    color: white;
+}
+
+ul a:hover{
+    background-color: salmon;
+    color: white;
+      border-radius: 10%;
+}
+
+
 /* Landing Page*/
 #bowl{
     width: 20vw;
@@ -22,7 +42,7 @@ table{
     border: 1px solid black;
     border-collapse: collapse; 
     text-align: center; 
-    margin: 0 auto;
+    margin: 42px auto 0;
     background-image: url(images/herb.jpg);
     background-color: rgba(255,255,255,0.75);
     background-blend-mode: hue;
@@ -87,6 +107,12 @@ form {
     background-color:salmon; 
     color: whitesmoke; 
     font-weight: 700;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: salmon;
 }
 /* Footer */
 #footer{
