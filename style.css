@@ -30,6 +30,10 @@ ul a:hover{
 
 
 /* Landing Page*/
+#frequent:nth-child(1){
+    color: forestgreen;
+    font-weight: 600;
+}
 #bowl{
     width: 20vw;
     height: 25vh;
