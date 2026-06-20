@@ -8,10 +8,12 @@ if(cent){
     cent.style.textAlign = 'center'
 }
 
-let cap = document.querySelector('.journey');
-if(cap){
-cap.style.textTransform = 'capitalize'
+let cap = document.querySelectorAll('.journey').forEach(cap => {
+    if(cap){
+    cap.style.textTransform = 'capitalize'
 }
+})
+
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const todayIndex = new Date().getDay(); // Returns a number 0-6
