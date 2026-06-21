@@ -27,18 +27,18 @@ ul a:hover{
     color: white;
       border-radius: 10%;
 }
-
-
 /* Landing Page*/
 .leaf::before{
     content: '\01F343';
-    padding-left: 0;
-    margin-left: 0;
+    padding-right: 8px;
 }
 .leaf::after{
     content: '\01F343';
-    padding-left: 0;
-    margin-left: 0;
+    padding-left: 8px;
+}
+
+.headerCenter p:nth-child(3){
+    font-weight: 600;
 }
 #frequent:nth-child(1){
     color: forestgreen;
@@ -73,6 +73,21 @@ td{
 #podSection div{
     text-align: center;
 }
+
+.podcast::before{
+    content: '\1F3A4';
+    padding-right: 8px;
+}
+.podcast::after{
+    content: '\1F4F9';
+    padding-left: 8px;
+}
+#podSection h2:first-of-type::before{
+    content: '\1F3A4';
+}
+#podSection h2:last-of-type::before{
+    content: '\1F4F9';
+}
 #podSection h2{
     margin-bottom: 8px;
 }
@@ -86,7 +101,14 @@ td{
 section > h2{
     text-align: center;
 }
-
+.pen::before{
+    content: '\2712';
+    padding-right: 5px;
+}
+.pen::after{
+    content: '\2712';
+    padding-left: 5px;
+}
 h2 + .blogInfo{
     text-align: center;
 }
@@ -100,6 +122,12 @@ p[lang]{
     height: 28vh;
     width: 22vw;
 }
+.dand p:last-of-type::first-letter{
+    font-weight: 600;
+    color: goldenrod;
+    font-size: 36px;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive; ;
+}
 #healingProps ~ p{
     width: 50vw;
     margin: 0 auto;
@@ -107,6 +135,14 @@ p[lang]{
 }
 
 /* Contact Page */
+.horn::before{
+    content: '\1F4E3';
+    padding-right: 5px;
+}
+.horn::after{
+    content: '\1F4E3';
+    padding-left: 5px;
+}
 form {
     padding: 14px;
     width: 300px;
