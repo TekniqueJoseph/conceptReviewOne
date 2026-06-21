@@ -30,6 +30,16 @@ ul a:hover{
 
 
 /* Landing Page*/
+.leaf::before{
+    content: '\01F343';
+    padding-left: 0;
+    margin-left: 0;
+}
+.leaf::after{
+    content: '\01F343';
+    padding-left: 0;
+    margin-left: 0;
+}
 #frequent:nth-child(1){
     color: forestgreen;
     font-weight: 600;
@@ -103,6 +113,9 @@ form {
     border-radius: 2.5%;
     margin: 0 auto;
     background-color: rgb(181, 226, 217);
+}
+.tarea::placeholder{
+    color: salmon;
 }
 .btn {
     width: 100px; 
